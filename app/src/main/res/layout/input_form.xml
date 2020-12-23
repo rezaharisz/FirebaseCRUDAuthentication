@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/colorAccent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:text="@string/form_input"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/et_fakultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fakultas"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/et_jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/jurusan"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/et_semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/semester"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/simpan" />
+
+    </LinearLayout>
+
+</LinearLayout>

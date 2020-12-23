@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FIREBASE CRUD</string>
+    <string name="form_input">Form Input</string>
+    <string name="nama">Nama</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="semester">Semester</string>
+    <string name="simpan">Simpan</string>
+</resources>
